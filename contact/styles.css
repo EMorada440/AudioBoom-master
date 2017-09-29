@@ -1,0 +1,274 @@
+@media screen and (min-width:768px) {
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered, .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+#hot1 {
+    height: 50px;
+}
+
+#message1 {
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #e2dedb;
+    color: #b3aca7;
+    background-image: url("headphone1.jpg");
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+
+
+input, select {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: white;
+    outline: none;
+    color: #726659;
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: white;
+    outline: none;
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    border: solid 1px #b3aca7;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+
+
+textarea:hover {
+    background: #b3aca7;
+
+}
+
+fieldset div.errorMessage {
+   display: none;
+   color: red;
+   margin-top: 10px;
+}
+
+div.person label, div.person input, {
+   display: inline-block;
+   float: none;
+   text-align: center;
+   width: auto;
+}
+
+#submit {
+    width: 470px;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #b3aca7;
+    border-top: none;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
+
+h2 {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.cold1 {
+    text-align: center;
+}
+
+.cold2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.cold3 {
+    text-align: center;
+}
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    -webkit-transform: scale(0.8);
+}
+
+footer {
+    background-color: white;
+    padding: 35px;
+}
+
+footer li {
+    float: left;
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+    font-size: 16px;
+}
+
+
+/*  Project 01_06_01
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}*/
+
+body {
+   line-height: 1;
+   max-width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+header {
+   width: 100%;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+}
+
+/* main content */
+
+
+form div {
+   border: 1px solid red;
+   background: rgb(255,233,233);
+   width: 80%;
+   margin: 0 auto;
+   padding: 10px;
+   display: none;
+}
+
+/* form */
+
+fieldset {
+  padding: 1em;
+  background: white;
+  text-align: right;
+}
+
+form {
+  background: white;
+  padding: 10px 5px 7px 5px;
+  margin: 0 auto;
+  width: 30em;
+  border: 2px solid black;
+}
+
+input {
+  font-size: 1em;
+  float: left;
+}
+
+
+input:focus {
+  background: #e3d5ba;
+}
+
+label {
+  display: block;
+  margin: 0.5em 1em 0 0;
+  float: left;
+  clear: left;
+  width: 10em;
+}
